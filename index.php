@@ -41,11 +41,11 @@
         }
         header("Location: home.php");
       } else{
-        $error_check["login"]["login_user"] = "no";
+        $error_check["index"]["login_user"] = "no";
       }
     }
     else {
-      $error_check["login"]["login_user"] = "no";
+      $error_check["index"]["login_user"] = "no";
     }
 
     
@@ -122,7 +122,7 @@
                 <h3>Log In</h3>
                 <p>Fill in the details</p>
                 <?php 
-                    if(isset($error_check["login"]["login_user"]) && $error_check["login"]["login_user"] == "no"){
+                    if(isset($error_check["index"]["login_user"]) && $error_check["index"]["login_user"] == "no"){
                       echo "<p class='text-danger label'>Please Check Your Login Credentials.</p>";
                     }
                 ?>
