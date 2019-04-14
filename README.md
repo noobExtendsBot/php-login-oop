@@ -9,5 +9,6 @@ Login system in PHP using OOP and PDO
   
  ## NOTE
   1. It will work fine without tcpdf. TCPDF just gives a special link to admin only to download user information as pdf.
+  2. Configure the database info in config -> database.php
   
 
