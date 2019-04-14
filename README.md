@@ -1,7 +1,7 @@
 ### php-login-oop
 Login system in PHP using OOP and PDO
 ## File Structure
-![File Structure](https://imgur.com/U761QH7)
+![File Structure](https://i.imgur.com/U761QH7.png)
 
 ## Installation
   1. Import the .sql file
